@@ -4,6 +4,10 @@ A handheld gaming retro console with games like imposter and snake as well as ma
 # Why I Made This
 Recently we got into playing imposter game whenever we were free from work at school. Imposter game is a game where a group of people get the same word but one person(The imposter) only gets the category of the word, and every person goes in turn to say a clue to convince everyone else that they are not the imposter. It is the imposters goal to figure oout the word, or blend in to not get voted out at the end! We used a website to play this game, but since it was blocked on chromebooks, and the macbook we had available was ENORMOUS, I decided to make this!
 
+# ONShape Public Link:
+
+https://cad.onshape.com/documents/24d08d356983a473a07d0395/w/bdbbfa7dcc161a2e4c596562/e/f728fd388c0d0ac0150bf736?renderMode=0&uiState=69c996069bdee523d7a474fc
+
 Here Are Some Pics of the Project:
 
 Prototype: 
