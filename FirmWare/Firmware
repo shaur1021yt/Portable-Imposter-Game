@@ -1,0 +1,86 @@
+import board
+import busio
+import adafruit_ssd1306
+from digitalio import DigitalInOut, Direction, Pull
+import random
+import time
+import usb_cdc
+
+# Serial for AI
+serial = usb_cdc.data
+
+# ---------------- OLED ----------------
+i2c = busio.I2C(board.GP1, board.GP0)
+oled = adafruit_ssd1306.SSD1306_I2C(128, 32, i2c)
+oled.fill(0)
+oled.show()
+
+# ---------------- Buttons ----------------
+buttons = {
+    "B1": DigitalInOut(board.GP2),
+    "B2": DigitalInOut(board.GP3),
+    "B3": DigitalInOut(board.GP4),
+    "B4": DigitalInOut(board.GP5)
+}
+for b in buttons.values():
+    b.direction = Direction.INPUT
+    b.pull = Pull.UP
+
+# ---------------- Encoder ----------------
+encoder_sw = DigitalInOut(board.GP8)
+encoder_sw.direction = Direction.INPUT
+encoder_sw.pull = Pull.UP
+
+# ---------------- OLED helper ----------------
+def oled_message(lines):
+    oled.fill(0)
+    for i, text in enumerate(lines[:4]):
+        oled.text(text, 0, i*8, 1)
+    oled.show()
+
+# ---------------- AI WORD FETCH ----------------
+def get_ai_word():
+    try:
+        serial.write(b"GET_WORD\n")
+
+        timeout = time.time() + 3
+        buffer = b""
+
+        while time.time() < timeout:
+            if serial.in_waiting:
+                buffer += serial.read(serial.in_waiting)
+                if b"\n" in buffer:
+                    word = buffer.decode().strip()
+                    return word
+
+    except:
+        pass
+
+    # fallback if AI fails
+    return random.choice(["Fallback", "Backup", "Default"])
+
+# ---------------- GAME LOOP ----------------
+players = ["P1", "P2", "P3"]
+
+while True:
+    oled_message(["Fetching AI word..."])
+    secret_word = get_ai_word()
+
+    imposter = random.choice(players)
+
+    for player in players:
+        oled_message([f"PASS TO {player}", "Press button"])
+        while all(b.value for b in buttons.values()):
+            pass
+
+        if player == imposter:
+            oled_message([player, "IMPOSTER"])
+        else:
+            oled_message([player, secret_word])
+
+        while all(b.value for b in buttons.values()):
+            pass
+
+    oled_message(["Round done", "Press encoder"])
+    while encoder_sw.value:
+        pass
