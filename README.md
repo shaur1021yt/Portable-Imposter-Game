@@ -32,11 +32,11 @@ Full 3D CAD + PCB:
 
 | ID | Name | Designator | Footprint | Quantity | Manufacturer Part | Manufacturer | Supplier | Supplier Part | Price | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | RASPBERRY PI PICO 2W | U1 | COMM-SMD_L51.0-W21.0-P2.54_PICOW | 1 | Raspberry Pi Pico 2W | Raspberry Pi(树莓派) | LCSC | C42394205 |  | [Link](https://atta.szlcsc.com/upload/public/pdf/source/20230906/10B4C0665D815973E97A5F4971CA719F.pdf) |
+| 1 | RASPBERRY PI PICO 2W | U1 | COMM-SMD_L51.0-W21.0-P2.54_PICOW | 1 | Raspberry Pi Pico 2W | Raspberry Pi(树莓派) | LCSC | C42394205 | 7.00 | [Link]([https://atta.szlcsc.com/upload/public/pdf/source/20230906/10B4C0665D815973E97A5F4971CA719F.pdf](https://www.digikey.com/en/products/detail/raspberry-pi/SC1633/25862735?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLlibWss_wAgYhSjCoqfi9qAB0&gclid=Cj0KCQjwm6POBhCrARIsAIG58CKwvUwd10SzbuQngX5cFlX-TevitjJQY71fOtdX4jvNmupoWmb6UtkaAi33EALw_wcB)) |
 | 2 | NSR0320MW2T1G | D2 | SOD-323_L1.8-W1.3-LS2.5-RD | 1 | NSR0320MW2T1G | onsemi(安森美) | LCSC | C48192 | 0.079 | [Link](https://item.szlcsc.com/295156.html) |
 | 3 | 4.7uH | L1 | IND-SMD_L3.5-W3.0 | 1 | CD32N-4R7M | MINGSTAR(登壹) | LCSC | C2875683 | 0.065 | [Link](https://item.szlcsc.com/392683.html) |
 | 4 | YLED0805O | LED1 | LED0805-FD-GREEN | 1 | YLED0805O | YONGYUTAI(永裕泰) | LCSC | C25170727 | 0.01 | [Link](https://item.szlcsc.com/datasheet/YLED0805G/26899175.html) |
-| 5 | 4.7kΩ | R1,R2 | RES-SMD_L3.5-W1.5 | 2 | MELF-MFR02041/4WS4.7KΩFT50 | Thunder Component(帝谷) | LCSC | C265557 |  | [Link](https://item.szlcsc.com/363256.html) |
+| 5 | 4.7kΩ | R1,R2 | RES-SMD_L3.5-W1.5 | 2 | MELF-MFR02041/4WS4.7KΩFT50 | Thunder Component(帝谷) | LCSC | C265557 | 0.32 | [Link]([https://item.szlcsc.com/363256.html](https://www.lcsc.com/product-detail/C2907387.html)) |
 | 6 | 20kΩ | R4 | R1206 | 1 | FRC1206F2002TS | FOJAN(富捷) | LCSC | C2933636 | 0.004 | [Link](https://item.szlcsc.com/311874.html) |
 | 7 | 330Ω | R5 | R0805 | 1 | CRCW0805330RJNEA | VISHAY(威世) | LCSC | C844209 | 0.026 | [Link](https://item.szlcsc.com/142685.html) |
 | 8 | 1kΩ | R6 | R0603 | 1 | APC0603B1K00N | Ohmite | LCSC | C7077186 | 0.233 | [Link](https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf) |
