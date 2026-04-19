@@ -32,7 +32,7 @@ Full 3D CAD + PCB:
 
 | ID | Name | Designator | Footprint | Quantity | Manufacturer Part | Manufacturer | Supplier | Supplier Part | Price | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | RASPBERRY PI PICO 2W | U1 | COMM-SMD_L51.0-W21.0-P2.54_PICOW | 1 | Raspberry Pi Pico 2W | Raspberry Pi(树莓派) | LCSC | C42394205 | 7.00 | [Link]([https://atta.szlcsc.com/upload/public/pdf/source/20230906/10B4C0665D815973E97A5F4971CA719F.pdf](https://www.digikey.com/en/products/detail/raspberry-pi/SC1633/25862735?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLlibWss_wAgYhSjCoqfi9qAB0&gclid=Cj0KCQjwm6POBhCrARIsAIG58CKwvUwd10SzbuQngX5cFlX-TevitjJQY71fOtdX4jvNmupoWmb6UtkaAi33EALw_wcB)) |
+| 1 | RASPBERRY PI PICO 2W | U1 | COMM-SMD_L51.0-W21.0-P2.54_PICOW | 1 | Raspberry Pi Pico 2W | Raspberry Pi(树莓派) | LCSC | C42394205 | 7.00 | [Link](https://www.digikey.com/en/products/detail/raspberry-pi/SC1633/25862735?gclsrc=aw.ds&gad_source=4&gad_campaignid=20243136172&gbraid=0AAAAADrbLlibWss_wAgYhSjCoqfi9qAB0&gclid=Cj0KCQjwm6POBhCrARIsAIG58CKwvUwd10SzbuQngX5cFlX-TevitjJQY71fOtdX4jvNmupoWmb6UtkaAi33EALw_wcB) |
 | 2 | NSR0320MW2T1G | D2 | SOD-323_L1.8-W1.3-LS2.5-RD | 1 | NSR0320MW2T1G | onsemi(安森美) | LCSC | C48192 | 0.079 | [Link](https://item.szlcsc.com/295156.html) |
 | 3 | 4.7uH | L1 | IND-SMD_L3.5-W3.0 | 1 | CD32N-4R7M | MINGSTAR(登壹) | LCSC | C2875683 | 0.065 | [Link](https://item.szlcsc.com/392683.html) |
 | 4 | YLED0805O | LED1 | LED0805-FD-GREEN | 1 | YLED0805O | YONGYUTAI(永裕泰) | LCSC | C25170727 | 0.01 | [Link](https://item.szlcsc.com/datasheet/YLED0805G/26899175.html) |
